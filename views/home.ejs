@@ -17,8 +17,7 @@
           <tbody>
             <% var total =  0;%>
             <% user.skills.forEach(function(skill) {%>
-              <% if (skill.dekids_coins>0) { %>
-
+              <% if (skill.dekids_coins>0 && skill.UserSkills.dekids_coins>0) { %>
                 <tr>
                   <td><%= skill.name%>
                     <div class="progress">
@@ -45,7 +44,7 @@
         <div class="row">
           <div class="d-block d-sm-none col-sm-12">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-light btn-lg btn-block" data-toggle="modal" data-target="#exampleModalLong">Detalles</button>
+            <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#exampleModalLong" style="width:50%; margin:0% 25%;">Detalles</button>
             <!-- Modal -->
             <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
               <div class="modal-dialog" role="document">
@@ -66,7 +65,7 @@
                       </thead>
                       <tbody>
                         <% user.skills.forEach(function(skill) {%>
-                          <%if (skill.dekids_coins>0){%>
+                          <%if (skill.dekids_coins>0 && skill.UserSkills.dekids_coins>0){%>
                           <tr>
                             <td><%= skill.name%>
                               <div class="progress">
