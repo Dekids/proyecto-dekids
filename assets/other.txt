@@ -1,0 +1,22 @@
+/*
+"username": "ojfvlqtjiu9s5f3x",
+"password": "nebzkdcbazbsyz70",
+"database": "w8i328y2o30v7mye",
+"host": "gzp0u91edhmxszwf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+"dialect": "mysql"
+*/
+/*
+"username": "b6a7329fd5ab7c",
+"password": "c58507f7",
+"database": "heroku_ac354964125996d",
+"host": "us-cdbr-iron-east-01.cleardb.net",
+"dialect": "mysql"
+*/
+/*
+"username": "root",
+"password": null,
+"database": "dekids0",
+"host": "127.0.0.1",
+"dialect": "mysql"
+*/
+mysql://b6a7329fd5ab7c:c58507f7@us-cdbr-iron-east-01.cleardb.net/heroku_ac354964125996d?reconnect=true

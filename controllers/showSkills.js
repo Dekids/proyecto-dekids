@@ -7,7 +7,6 @@ module.exports ={
       include:['skills']
     }).then(function(user){
       res.render('home',{user})
-      //res.json(user)
     })
   }
 }

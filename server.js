@@ -12,6 +12,7 @@ app.use('/assets',express.static('assets'));
 
 const sessionsRoutes = require('./routes/sessions_routes');
 const homeRoutes = require('./routes/home_routes');
+const userRoutes = require('./routes/user_routes');
 
 const findUserMiddleware = require('./middlewares/find_user');
 const authUser = require('./middlewares/auth_user');
@@ -30,6 +31,7 @@ app.use(findUserMiddleware);
 app.use(authUser);
 app.use(sessionsRoutes);
 app.use(homeRoutes);
+app.use(userRoutes);
 
 app.get('/',function(req,res){
   res.render('login');

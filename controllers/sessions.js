@@ -9,10 +9,16 @@ module.exports ={
         .then(user => {
           if(user){
             req.session.userId = user.id;
+            req.session.username= user.username;
             res.redirect('/home');
           }else{
             console.log("Ingrese un usuario y contrasela válido");
-            res.redirect('/');
+            res.render('login',{message: {
+              title:"Usuario o contraseña incorrecta",
+              txt:"Intentelo nuevamente",
+              icon:"error",
+              button:"Aceptar"
+            }});
           }
         })
         .catch(err=>{
@@ -21,7 +27,7 @@ module.exports ={
   },
   destroy: function (req, res) {
     req.session.destroy(function () {
-      res.redirect('/');
+      res.redirect('http://dekids.com.mx/');
     });
   }
 };
