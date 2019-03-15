@@ -14,8 +14,8 @@ module.exports = {
       {id:34, name: 'Pensamiento critico',dekids_coins: 70, createdAt: new Date(),updatedAt: new Date()},
       {id:35, name: 'Solución de problemas',dekids_coins: 70,createdAt: new Date(),updatedAt: new Date()},
       {id:36, name: 'Negociación',dekids_coins: 70,createdAt: new Date(),updatedAt: new Date()},
-      {id:37, name: 'Finanzas',dekids_coins : 70,createdAt: new Date(),updatedAt: new Date()}
-      {id:38, name: 'Bonus',dekids_coins : 20,createdAt: new Date(),updatedAt: new Date()}
+      {id:37, name: 'Finanzas',dekids_coins : 70,createdAt: new Date(),updatedAt: new Date()},
+      {id:38, name: 'Bonus',dekids_coins : 20,createdAt: new Date(),updatedAt: new Date()},
       {id:39, name: 'Logica de programacion',dekids_coins: 141,createdAt: new Date(),updatedAt: new Date()},
       {id:40, name: 'Herramientas digitales',dekids_coins: 61,createdAt: new Date(),updatedAt: new Date()},
       {id:41, name: 'Diseño web',dekids_coins: 1,createdAt: new Date(),updatedAt: new Date()},
@@ -26,7 +26,7 @@ module.exports = {
       {id:46, name: 'Pensamiento critico',dekids_coins: 4, createdAt: new Date(),updatedAt: new Date()},
       {id:47, name: 'Solución de problemas',dekids_coins: 4,createdAt: new Date(),updatedAt: new Date()},
       {id:48, name: 'Negociación',dekids_coins: 0,createdAt: new Date(),updatedAt: new Date()},
-      {id:49, name: 'Finanzas',dekids_coins : 0,createdAt: new Date(),updatedAt: new Date()}
+      {id:49, name: 'Finanzas',dekids_coins : 0,createdAt: new Date(),updatedAt: new Date()},
       {id:50, name: 'Bonus',dekids_coins : 0,createdAt: new Date(),updatedAt: new Date()}
     ], {});
   },
